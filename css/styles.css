@@ -146,6 +146,11 @@ margin: 0 auto 48px;
     background: #2E2F42;
     padding: 188px 0;
     text-align: center;
+    background-image:linear-gradient(rgba(46, 47, 66, 0.70),rgba(46, 47, 66, 0.70)) ,
+     url(../images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
  
 
@@ -222,6 +227,9 @@ width: calc((100% - 72px) / 4);
 .section-job{
     display: flex;
     gap: 24px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+        0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+        0px 1px 6px 0px rgba(46, 47, 66, 0.08);;
 
 }
 
@@ -240,6 +248,12 @@ border-radius: 0px 0px 4px 4px;
 .hero-item {
 width: calc((100% - 48px) / 3);
 }
+
+.hero-item:nth-child(2):hover {
+
+box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
 .hero {
 
     display: flex;
